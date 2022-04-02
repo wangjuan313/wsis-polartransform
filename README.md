@@ -45,8 +45,8 @@ python tools/plot_promise_center_polartransform.py --n_exp exp_no
 ## Citations
 
 Please consider citing our paper in your publications if the project helps your research.
-```
 
+```
 @inproceedings{wang2021bounding,
   title={Bounding Box Tightness Prior for Weakly Supervised Image Segmentation},
   author={Wang, Juan and Xia, Bin},
@@ -61,7 +61,4 @@ Please consider citing our paper in your publications if the project helps your 
   journal={arXiv preprint arXiv:2203.06000},
   year={2022}
 }
-
-```
-
 ```
