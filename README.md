@@ -22,7 +22,6 @@ python preprocess/slice_promise_augment_train_val.py
 # the proposed approach with weighted alpha-softmax approaximation (exp_no=4,...,10),
 # the proposed approach with weighted alpha-quasimax approaximation (exp_no=11,...,17),
 CUDA_VISIBLE_DEVICES=0 python tools/train_promise_unetwithbox_polartransform.py --n_exp exp_no
-
 ```
 
 ```bash
@@ -38,18 +37,16 @@ python tools/report_promise_unetwithbox_polartransform.py
 
 # Center visualization
 
-```bash```
+```bash
 # exp_no = 1 or 2
 python tools/plot_promise_center_polartransform.py --n_exp exp_no
 ```
 
-![](C:\Users\wangj\Desktop\tmp\miccai2022\visualization\0_Case16_0_00.png_8.gif) <img src="file:///C:/Users/wangj/Desktop/tmp/miccai2022/visualization/0_Case25_0_01.png_8.gif" title="" alt="" data-align="inline"> ![](C:\Users\wangj\Desktop\tmp\miccai2022\visualization\0_Case31_0_01.png_7.gif)
-
 ## Citations
 
 Please consider citing our paper in your publications if the project helps your research.
-
 ```
+
 @inproceedings{wang2021bounding,
   title={Bounding Box Tightness Prior for Weakly Supervised Image Segmentation},
   author={Wang, Juan and Xia, Bin},
@@ -64,6 +61,7 @@ Please consider citing our paper in your publications if the project helps your 
   journal={arXiv preprint arXiv:2203.06000},
   year={2022}
 }
+
 ```
 
-
+```
