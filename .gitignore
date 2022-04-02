@@ -1,0 +1,5 @@
+# ignore
+results/
+val_image_summary.csv
+__pycache__/
+*.py[cod]
